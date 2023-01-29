@@ -1,0 +1,36 @@
+{
+    "header": {
+        "menu": [
+            {
+                "link": "hero",
+                "title": "Home",
+                "isDropdown": false
+            },
+            {
+                "link": "about",
+                "title": "About",
+                "isDropdown": false
+            },
+            {
+                "link": "services",
+                "title": "Services",
+                "isDropdown": false
+            },
+            {
+                "link": "gallery",
+                "title": "Gallery",
+                "isDropdown": false
+            },
+            {
+                "link": "testimonials",
+                "title": "Testimonials",
+                "isDropdown": false
+            },
+            {
+                "link": "contact",
+                "title": "Contact",
+                "isDropdown": false
+            }
+        ]
+    }
+}

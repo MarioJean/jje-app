@@ -1,9 +1,10 @@
+import React from 'react';
 import Header from '../global/Header';
 
-const MainPage = () => {
+const MainPage = ({ header }) => {
     return(
         <>
-            <Header/>
+            <Header header={header}/>
         </>
     )
 }
