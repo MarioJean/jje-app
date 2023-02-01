@@ -1,0 +1,44 @@
+.hero__padding {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.hero__content {
+    z-index: 9;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero__content {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .hero__content form {
+        display: inline-block;
+    }
+}
+
+.hero__content form input {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 0px 15px rgba(1, 6, 33, 0.06);
+    padding: 15px 15px;
+    width: 300px;
+}
+
+.hero__content form input:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .hero__content form input{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .hero__content form input{
+        width: auto;
+    }
+}
