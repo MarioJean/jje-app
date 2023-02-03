@@ -1,23 +1,6 @@
 import React from "react";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
 import data from '../data/hero.json';
 
-function SubscribeForm () {
-    return (
-        <form>
-            <div className="input-group">
-                <input
-                 type='email'
-                 required
-                 placeholder="Your email"
-                />
-                <button type="submit" className="button button__primary">
-                    <span>Subscribe</span>
-                </button>
-            </div>
-        </form>
-    )
-}
 
 const Hero = ({isBg}) => {
     const { herov1 } = data;
@@ -30,6 +13,8 @@ const Hero = ({isBg}) => {
                 <div className="circle x3"></div>
                 <div className="circle x4"></div>
                 <div className="circle x5"></div>
+                <div className="circle x6"></div>
+                <div className="circle x7"></div>
                 <div className="container">
                     <div className="row align-items-center">
 
@@ -40,15 +25,11 @@ const Hero = ({isBg}) => {
                                 </div>
                                 <h1 className="display-4 mb-4 text-capitalize">{herov1.title}</h1>
                                 <p className="text-muted mb-5 fs-5">{herov1.description}</p>
-                                <MailchimpSubscribe
-                                    render={({ subscribe, status, message}) => (
-                                        <SubscribeForm
-                                         status={status}
-                                         message={message}
-                                         onValidated={(formData) => subscribe(formData)}
-                                        />
-                                    )}
-                                />
+                                <div className="input-group">
+                                    <button type="submit" className="button button__primary">
+                                        <span>Contact</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
 

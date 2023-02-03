@@ -28,7 +28,7 @@ body {
 }
 
 .bg-one {
-    background-color: #f8ebe6;
+    background-color: #fff;
 }
 
 .section-padding {
@@ -57,16 +57,24 @@ body {
 .button {
     pointer-events: auto;
     cursor: pointer;
-    background-color: #c27b7f;
+    background-color: #e51c24;
     color: #fff;
     border: none;
     align-items: center;
-    padding: 10px 30px;
+    padding: 10px 50px;
     line-height: 30px;
     margin: 0;
     position: relative;
     display: inline-block;
 }
+
+@media only screen and (max-width: 768px) {
+    .button {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
 
 .button:hover {
     color: #fff;
@@ -85,12 +93,12 @@ body {
     border-radius: 3px;
     overflow: hidden;
     color: #fff;
-    background: #876585;
+    background: #f14951;
 }
 
 .button__primary::before {
     content: '';
-    background: #c27b7f;
+    background: #e51c24;
     width: 125%;
     left: -12%;
     transform: skew(30deg);
@@ -106,19 +114,19 @@ body {
 }
 
 .circle {
-    width: 70px;
-    height: 70px;
+    width: 7px;
+    height: 5px;
     border-radius: 50%;
     position: absolute;
     overflow: hidden;
     opacity: 0.3s;
     border-width: 5px;
     border-style: solid;
-    border-color: #e51c24;
+    border-color: #f14951;
 }
 
 .x1 {
-    animation: movecircles 25s linear infinite;
+    animation: movecircles 50s linear infinite;
     top: 150px;
 }
 
@@ -126,26 +134,40 @@ body {
     left: 200px;
     top: 200px;
     transform: scale(0.6);
-    animation: movecircles 35s linear infinite;
+    animation: movecircles 65s linear infinite;
 }
 
 .x3 {
     left: -250px;
     bottom: 250px;
     transform: scale(0.8);
-    animation: movecircles 40s linear infinite; 
+    animation: movecircles 70s linear infinite; 
 }
 
 .x4 {
     left: 470px;
     bottom: 300px;
     transform: scale(0.75);
-    animation: movecircles 45s linear infinite; 
+    animation: movecircles 75s linear infinite; 
 }
 
 .x5 {
     left: -150px;
-    bottom: 100px;
+    bottom: 350px;
     transform: scale(0.8);
-    animation: movecircles 50s linear infinite; 
+    animation: movecircles 80s linear infinite; 
+}
+
+.x6 {
+    left: 300px;
+    bottom: 400px;
+    transform: scale(0.8);
+    animation: movecircles 85s linear infinite; 
+}
+
+.x7 {
+    left: -300px;
+    bottom: 450px;
+    transform: scale(0.6);
+    animation: movecircles 90s linear infinite; 
 }

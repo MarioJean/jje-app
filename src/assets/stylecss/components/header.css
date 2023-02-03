@@ -7,7 +7,7 @@
 .header.navbar_fixed {
     position: fixed;
     width: 100%;
-    background: #fff;
+    background: #000;
     z-index: 100;
     box-shadow: 0 2px 0 rgba(1, 6, 33, 0.06);
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -34,7 +34,7 @@
 }
 
 .header .navbar .navbar-nav li a {
-    color: #2f4858;
+    color: #fff;
 }
 
 .header .navbar .navbar-nav li a:hover, 
@@ -50,7 +50,7 @@
 }
 
 .header .navbar-expand-lg {
-    background-color: #fff;
+    background-color: #071013;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@
     position: absolute;
     height: 1px;
     width: 50%;
-    background: #2f4858;
+    background: #fff;
     opacity: 1;
     transform: rotate(0deg);
     transition: 0.25s ease-in-out;
