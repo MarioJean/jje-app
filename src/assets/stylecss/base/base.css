@@ -296,3 +296,75 @@ body {
 .btn__secondary.btn-small {
     padding: 4px 20px;
 }
+
+.link {
+    font-weight: 600;
+    position: relative;
+    color: #e51c24;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.link svg {
+    position: relative;
+    margin-left: 4px;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.link:hover {
+    color: #f14951;
+}
+
+.link:hover svg{
+    margin-left: 6px;
+}
+
+.social-icon {
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: #e51c24;
+    color: #fff;
+    transition: all 0.5s;
+    box-shadow: 3px 3px #f14951;
+}
+
+.social-icon li a:hover {
+    background-color: #f14951;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 320px) {
+    .social-icon li a {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.social-icon li a svg {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    .social-icon li a svg {
+        font-size: 15px;
+    }
+}

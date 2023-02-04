@@ -18,7 +18,7 @@ const Gallery = ({ isBg }) => {
     
     return (
         <section
-         id="preview"
+         id="gallery"
          className={`section-padding gallery ${isBg === "yes" ? "bg-one" : ""}`}
          >
             <div className="container">
