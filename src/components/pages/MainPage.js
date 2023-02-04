@@ -3,6 +3,7 @@ import Header from '../global/Header';
 import Hero from '../hero';
 import Gallery from '../gallery';
 import About from '../about';
+import Services from '../services';
 
 const MainPage = ({ header }) => {
     return(
@@ -10,6 +11,7 @@ const MainPage = ({ header }) => {
             <Header header={header}/>
             <Hero isBg='' />
             <About isBg='' />
+            <Services isBg='' />
             <Gallery isBg='' />
         </>
     )

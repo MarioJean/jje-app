@@ -1,0 +1,44 @@
+{
+    "services": {
+        "title": "Services",
+        "subtitle": "Browse through the catalog of services we offer",
+        "service": [
+            {
+                "id": 1,
+                "title": "School Fun Days",
+                "image": "/assets/images/services/1.jpg",
+                "description": "We specialize in creating unforgettable school fun days for students of all ages. Our team of experts has a passion for combining education and entertainment to deliver a unique and engaging experience for students."
+            },
+            {
+                "id": 2,
+                "title": "Birthday Parties",
+                "image": "/assets/images/services/2.jpg",
+                "description": "Make your next birthday celebration unforgettable! We specialize in creating customized birthday experiences that cater to your unique preferences and interests."
+            },
+            {
+                "id": 3,
+                "title": "Events Equipment",
+                "image": "/assets/images/services/3.jpg",
+                "description": "We have an array of play equipment that will make your party a lively, fun filled event including bouncing castles, trampolines, water slides and dry slides."
+            },
+            {
+                "id": 4,
+                "title": "Corporate Events",
+                "image": "/assets/images/services/4.jpg",
+                "description": "Elevate your next corporate event with the help of our experienced events company. From venue selection to theme creation and execution, our team will work closely with you to ensure that your event is a resounding success."
+            },
+            {
+                "id": 5,
+                "title": "Team Building",
+                "image": "/assets/images/services/5.jpg",
+                "description": "Whether you're looking to boost morale, improve communication, or simply have some fun, we offer a wide range of options designed to challenge and unite your team. Let us help create a stronger, more cohesive team for your organization."
+            },
+            {
+                "id": 6,
+                "title": "Private Events",
+                "image": "/assets/images/services/5.jpg",
+                "description": "We specialize in creating unique and personalized experiences that reflect your individual style and tastes. With a focus on attention to detail and flawless execution, our team will work closely with you to ensure that your event is a memorable and stress-free occasion."
+            }
+        ] 
+    }
+}
