@@ -28,7 +28,7 @@ body {
 }
 
 .bg-one {
-    background-color: #fff;
+    background-color: #071013;
 }
 
 .section-padding {
@@ -170,4 +170,129 @@ body {
     bottom: 450px;
     transform: scale(0.6);
     animation: movecircles 90s linear infinite; 
+}
+
+[class*='section-title-'] {
+    margin-bottom: 50px;
+}
+
+[class*='section-title-'] span {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e51c24;
+    font-weight: 600;
+    display: inline-block;
+}
+
+[class*='section-title-'] h2 {
+    margin-top: 0px;
+}
+
+.section-title-center p {
+    margin: 0 auto;
+}
+
+.section-divider {
+    margin-top: 20px;
+}
+
+.divider-triangle {
+    width: 200px;
+    border-width: 1px;
+    border-color: #e51c24;
+    opacity: 0.4;
+    position: relative;
+    display: inline-block;
+}
+
+.divider-triangle::before {
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color: #e51c24;
+    top: -9px;
+    opacity: 0.4;
+    right: 50%;
+    transform: rotate(45deg);
+}
+
+.divider-triangle::after {
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: #e51c24;
+    top: -9px;
+    opacity: 0.4;
+    left: 45%;
+    transform: rotate(45deg);
+}
+
+.translateEffect2 {
+    transition: all 0.3s;
+}
+
+.translateEffect2:hover {
+    transform: translateY(-5px);
+}
+
+.btn__secondary {
+    position: relative;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 3px;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: transparent;
+    color: #e51c24;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn__secondary svg {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.btn__secondary::before,
+.btn__secondary::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e51c24;
+    transition: all 0.5s ease;
+}
+
+.btn__secondary::before {
+    top: 0;
+    left: 0;
+    border-right: none;
+}
+
+.btn__secondary::after {
+    top: 0;
+    right: 0;
+    border-left: none;
+}
+
+.btn__secondary::before,
+.btn__secondary::after {
+    width: 100%;
+}
+
+.btn__secondary:hover {
+    text-decoration: none;
+    background: #e51c24;
+    color: #fff;
+    transition-delay: 0.35s;
+}
+
+.btn__secondary.btn-small {
+    padding: 4px 20px;
 }

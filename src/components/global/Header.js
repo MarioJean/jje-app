@@ -39,7 +39,7 @@ const Header = (header) => {
                                     <li className='nav-item' key={i}>
                                         <Link
                                         activeClass='active'
-                                        className='benefits nav-link'
+                                        className='home nav-link'
                                         to={`${data.link}`}
                                         spy={true}
                                         isDynamic={false}

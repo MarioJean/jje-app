@@ -1,0 +1,23 @@
+{
+    "gallery":{
+        "title": "Gallery",
+        "subtitle": "Here are some images from our previous events",
+        "images": [
+            {
+                "image": "/assets/images/gallery/1.jpg"
+            },
+            {
+                "image": "/assets/images/gallery/2.jpg"
+            },
+            {
+                "image": "/assets/images/gallery/3.jpg"
+            },
+            {
+                "image": "/assets/images/gallery/4.jpg"
+            },
+            {
+                "image": "/assets/images/gallery/5.jpg"
+            }
+        ]
+    }
+}

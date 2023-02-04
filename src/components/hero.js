@@ -27,7 +27,7 @@ const Hero = ({isBg}) => {
                                 <p className="text-muted mb-5 fs-5">{herov1.description}</p>
                                 <div className="input-group">
                                     <button type="submit" className="button button__primary">
-                                        <span>Contact</span>
+                                        <span>Get Started</span>
                                     </button>
                                 </div>
                             </div>
