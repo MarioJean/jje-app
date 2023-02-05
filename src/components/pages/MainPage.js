@@ -5,6 +5,7 @@ import Gallery from '../gallery';
 import About from '../about';
 import Services from '../services';
 import Testimonial from '../testimonial';
+import Contact from '../contact';
 
 const MainPage = ({ header }) => {
     return(
@@ -15,6 +16,7 @@ const MainPage = ({ header }) => {
             <Services isBg='' />
             <Gallery isBg='' />
             <Testimonial isBg='' />
+            <Contact isBg='' />
         </>
     )
 }

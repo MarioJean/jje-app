@@ -5,6 +5,7 @@ export const SiteLogo = {
 
 export const socialLink = {
     facebook: "https://www.facebook.com",
+    instagram: "https://www.instagram.com",
     twitter: "https://www.twitter.com",
     linkedin: "https://www.linkedin.com",
     whatsapp: "https://www.whatsapp.com",
