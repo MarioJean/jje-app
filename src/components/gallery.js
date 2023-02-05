@@ -2,9 +2,10 @@ import React, { useEffect } from "react";
 import Glightbox from 'glightbox';
 import 'swiper/css';
 import 'swiper/css/autoplay';
+import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import data from '../data/gallery.json';
 import { Autoplay, Pagination } from "swiper";
+import data from '../data/gallery.json';
 
 const Gallery = ({ isBg }) => {
     const { gallery } = data;
