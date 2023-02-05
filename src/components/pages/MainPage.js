@@ -6,17 +6,19 @@ import About from '../about';
 import Services from '../services';
 import Testimonial from '../testimonial';
 import Contact from '../contact';
+import Footer from '../global/footer';
 
-const MainPage = ({ header }) => {
+const MainPage = ({ header, footer }) => {  
     return(
         <>
             <Header header={header}/>
             <Hero isBg='' />
-            <About isBg='' />
+            <About isBg='yes' />
             <Services isBg='' />
-            <Gallery isBg='' />
+            <Gallery isBg='yes' />
             <Testimonial isBg='' />
-            <Contact isBg='' />
+            <Contact isBg='yes' />
+            <Footer isBg='yes' footer={footer} />
         </>
     )
 }

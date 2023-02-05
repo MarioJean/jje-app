@@ -20,7 +20,7 @@ const Testimonial = ({ isBg }) => {
                     <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
                         <div className="section-title-center text-center">
                             <span>{testimonial.title}</span>
-                            <h2 className="display-6">{testimonial.subtitle}</h2>
+                            <h2 className="light-bg display-6">{testimonial.subtitle}</h2>
                             <div className="section-divider divider-triangle"></div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const Testimonial = ({ isBg }) => {
                                                         <img src={data.image} alt={data.title}/>
                                                     </div>
                                                     <div className="testimonial__user-info__content">
-                                                        <h4 className="mb-0">{data.name}</h4>
+                                                        <h4 className="dark-bg mb-0">{data.name}</h4>
                                                         <p className="mb-0">{data.title}</p>
                                                     </div>
                                                 </div>

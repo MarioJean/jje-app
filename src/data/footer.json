@@ -1,0 +1,36 @@
+{
+    "footer": {
+        "name": "Jolly Junction Events",
+        "menu": [
+            {
+                "link": "hero",
+                "title": "Home"
+            },
+            {
+                "link": "about",
+                "title": "About"
+                
+            },
+            {
+                "link": "services",
+                "title": "Services"
+                
+            },
+            {
+                "link": "gallery",
+                "title": "Gallery"
+                
+            },
+            {
+                "link": "testimonials",
+                "title": "Testimonials"
+                
+            },
+            {
+                "link": "contact",
+                "title": "Contact"
+                
+            }
+        ]
+    }
+}

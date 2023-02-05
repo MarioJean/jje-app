@@ -8,14 +8,14 @@
                 "name": "Mark Manolo",
                 "title": "JJE Client",
                 "image": "./assets/images/testimonials/user-1.png",
-                "description": "I recently used this events website for planning a corporate event and I was thoroughly impressed with the services provided. From start to finish, the team was professional, responsive, and attentive to my needs."
+                "description": "I recently used this events website for planning a corporate event and I was thoroughly impressed with the services provided from start to finish."
             },
             {
                 "id": 2,
                 "name": "Jessica Poppins",
                 "title": "JJE Client",
                 "image": "./assets/images/testimonials/user-2.png",
-                "description": "The online platform was easy to navigate and the resources provided made event planning a breeze. I highly recommend this website to anyone looking for seamless event planning services."
+                "description": "The online platform was easy to navigate and the resources provided made event planning a breeze. I highly recommend this company."
             },
             {
                 "id": 3,
@@ -36,7 +36,7 @@
                 "name": "Dr Janice Schrute",
                 "title": "JJE Client",
                 "image": "./assets/images/testimonials/user-1.png",
-                "description": "From start to finish, the team was extremely helpful and ensured that every aspect of the event went smoothly. The event was a huge success and it wouldn't have been possible without the seamless planning process."
+                "description": "From start to finish, the team was extremely helpful and ensured that every aspect of the event went smoothly. The event was a huge success."
             }
         ]
     }

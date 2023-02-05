@@ -1,0 +1,14 @@
+.ctav3__content {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ctav3__content h2 a {
+    color: #e51c24;
+}
+
+.ctav3__content h2 a:hover {
+    color: #f14951;
+}

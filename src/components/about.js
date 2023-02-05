@@ -15,7 +15,7 @@ const About = ({ isBg }) => {
                     <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
                         <div className="section-title-center text-center">
                             <span>{aboutv2.title}</span>
-                            <h2 className="display-6">{aboutv2.subtitle}</h2>
+                            <h2 className="display-6 dark-bg">{aboutv2.subtitle}</h2>
                             <div className="section-divider divider-triangle"></div>
                         </div>
                     </div>
@@ -32,24 +32,11 @@ const About = ({ isBg }) => {
                     </div>
 
                     <div
-                     className="col-lg-6"
+                     className="col-lg-6 acc__card"
                      data-aos='fade-left'
                      data-aos-duration='1000'
                      data-aos-delay='200'
                     >
-                    {/* <Accordion className="accordion-flush faqs-accordion mt-4 mt-lg-0">
-                        {aboutv2.aboutItem?.map((data) => (
-                            <Accordion.Item eventKey={data.id.toString()} key={data.id}>
-                                <Accordion.Header>
-                                    <span>{data.title}</span>
-                                    <IoIosArrowDown />
-                                </Accordion.Header>
-                                <Accordion.Body>
-                                    <p className="accordion-body text-secondary">{data.description1}</p>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        ))}
-                    </Accordion> */}
                     <Accordion className="accordion-flush faqs-accordion mt-4 mt-lg-0">
                         
                             <Accordion.Item>

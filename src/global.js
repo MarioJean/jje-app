@@ -1,5 +1,6 @@
 export const SiteLogo = {
     logo : "assets/images/logo2.png",
+    logo2 : "assets/images/logo.png",
     alt: "Jolly Junction Events"
 };
 

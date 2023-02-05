@@ -27,7 +27,7 @@ const Gallery = ({ isBg }) => {
                     <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
                         <div className="section-title-center text-center">
                             <span>{gallery.title}</span>
-                            <h2 className="display-6">{gallery.subtitle}</h2>
+                            <h2 className="dark-bg display-6">{gallery.subtitle}</h2>
                             <div className="section-divider divider-triangle"></div>
                         </div>
                     </div>

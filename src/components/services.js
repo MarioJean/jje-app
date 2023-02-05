@@ -14,7 +14,7 @@ const Services = ({ isBg }) => {
                     <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
                         <div className="section-title-center text-center">
                             <span>{services.title}</span>
-                            <h2 className="display-6">{services.subtitle}</h2>
+                            <h2 className="display-6 light-bg">{services.subtitle}</h2>
                             <div className="section-divider divider-triangle"></div>
                         </div>
                     </div>
@@ -29,25 +29,6 @@ const Services = ({ isBg }) => {
                          data-aos-duration="1000"
                          data-aos-delay={(i + 2) * 50}
                         >
-                            {/* <div className="services__item h-100 translateEffect1">
-                                <div className="row row-cols-2">
-                                    <div className="col mt-0">
-                                        <img
-                                         className="img-fluid"
-                                         src={data.image}
-                                         alt={data.title}
-                                        />
-                                    </div>
-
-                                    <div className="col mt-0">
-                                        <div className="services__content">
-                                            <h3>{data.title}</h3>
-                                            <p>{data.description}</p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div> */}
                             <div className="services__item h-100 translateEffect1">
                                 <div className="row row-cols-1">
                                     <div className="col">
@@ -60,7 +41,7 @@ const Services = ({ isBg }) => {
 
                                     <div className="col">
                                         <div className="services__content text-center">
-                                            <h3>{data.title}</h3>
+                                            <h3 className="dark-bg">{data.title}</h3>
                                             <p>{data.description}</p>
                                         </div>
                                     </div>

@@ -23,8 +23,15 @@ h4,
 h5,
 h6 {
     font-family: 'Nunito', sans-serif;
-    color: #071013;
     font-weight: 650;
+}
+
+.dark-bg {
+    color: #fff;
+}
+
+.light-bg {
+    color: #071013;
 }
 
 .display-1,
