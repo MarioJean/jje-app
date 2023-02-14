@@ -4,7 +4,7 @@
 
 /* Body font */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -40,5 +40,5 @@ h6 {
 .display-4,
 .display-5,
 .display-6 {
-    font-weight: 700;
+    font-weight: 650;
 }
