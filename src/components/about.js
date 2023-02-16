@@ -1,6 +1,6 @@
 import React from "react";
-import { Accordion } from "react-bootstrap";
 import data from '../data/about.json';
+import Card from 'react-bootstrap/Card';
 
 const About = ({ isBg }) => {
     const { aboutv2 } = data;
@@ -28,26 +28,80 @@ const About = ({ isBg }) => {
                      data-aos-duration='1000'
                      data-aos-delay='200'
                     >
-                        <img src={aboutv2.image} alt='' className="img-fluid d-block"/>
+                        <img src={aboutv2.image} alt='' className="img-fluid d-block img__item"/>
                     </div>
 
-                    <div
-                     className="col-lg-6 acc__card"
-                     data-aos='fade-left'
-                     data-aos-duration='1000'
-                     data-aos-delay='200'
-                    >
-                    <Accordion className="accordion-flush faqs-accordion mt-4 mt-lg-0">
-                        
-                            <Accordion.Item>
-                                <Accordion.Body>
-                                    <p className="accordion-body text-secondary">{aboutv2.description1}</p>
-                                    <p className="accordion-body text-secondary">{aboutv2.description2}</p>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                    
-                    </Accordion>
+                    <div className="col-lg-6">
+                        <div 
+                        data-aos='fade-left'
+                        data-aos-duration='1000'
+                        data-aos-delay='200'
+                        >
+                        <Card className="abt__card mt-4 mt-lg-0 light-bg" >
+                            <Card.Body>
+                                <Card.Text>
+                                    <p className="text-secondary">{aboutv2.description1}</p>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </div> 
+                        <br></br>   
+                        <div
+                        data-aos='fade-left'
+                        data-aos-duration='1500'
+                        data-aos-delay='300'
+                        >
+                        <Card className="abt__card mt-4 mt-lg-0 light-bg" >
+                            <Card.Body>
+                                <Card.Text>
+                                    <p className="text-secondary">{aboutv2.description2}</p>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            {/* Section 2 */}
+
+            <div className="container">   
+                <div className="row">
+                    <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
+                        <div className="section-title-center text-center">
+                            <h2 className="display-6 dark-bg">{aboutv2.subtitle2}</h2>
+                            <div className="section-divider divider-triangle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2">
+                    {aboutv2?.values?.map((data, i) => (
+                        <div
+                         key={data.id}
+                         className="m-15px-tb"
+                        >
+                            <div className="services__item h-100 translateEffect1">
+                                <div className="row row-cols-1">
+                                    <div className="col">
+                                        <img
+                                         className="img-fluid"
+                                         src={data.image}
+                                         alt="value"
+                                        />
+                                    </div>
+
+                                    <div className="col">
+                                        <div className="services__content text-center">
+                                            <h3 className="dark-bg">{data.value}</h3>
+                                            <p>{data.value_description}</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
 
             </div>

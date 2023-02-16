@@ -1,3 +1,7 @@
-.acc__card {
-    background-color: #071013;
+.abt__card {
+    background-color: #fff;
+}
+
+.img__item {
+    box-shadow: -15px -15px  #e51c24;
 }

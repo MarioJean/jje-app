@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
     font-family: 'Nunito', sans-serif;
-    font-weight: 650;
+    font-weight: 700;
 }
 
 .dark-bg {
@@ -40,5 +40,5 @@ h6 {
 .display-4,
 .display-5,
 .display-6 {
-    font-weight: 650;
+    font-weight: 700;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-scroll';
 import data from '../data/hero.json';
 
 
@@ -23,7 +24,7 @@ const Hero = ({isBg}) => {
                                 <div className="badge-text mb-2 text-uppercase">
                                     {herov1.subtitle}
                                 </div>
-                                <h1 className="display-4 mb-4 text-capitalize light-bg">{herov1.title}</h1>
+                                <h1 className="display-4 mb-4 text-capitalize light-bg hero__text">{herov1.title}</h1>
                                 <p className="text-muted mb-5 fs-5">{herov1.description}</p>
                                 <div className="input-group">
                                     <button type="submit" className="button button__primary">
