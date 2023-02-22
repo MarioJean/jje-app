@@ -8,17 +8,17 @@
         "description2":" Browse through our curated selection of events, read reviews and ratings from other clients, and get all the information you need to plan your next great adventure. So why wait? Start exploring and join us today for a world of exciting and enriching events.",
         "values": [
             {
-                "image": "/assets/images/services/2.jpg",
+                "image": "/assets/icons/money.svg",
                 "value":"Value for Money",
                 "value_description":"Our belief is that one does not have to exceed their budget to host an amazing party or event. Instead, we ensure that our prices are affordable while providing the highest level of quality for each service we offer."
             },
             {
-                "image": "/assets/images/services/2.jpg",
+                "image": "/assets/icons/thumbs-up.svg",
                 "value":"Reliable",
                 "value_description":"Our commitment to reliability is demonstrated not only by our timely delivery, but also by our consistent delivery of exceptional results, which is a source of our pride."
             },
             {
-                "image": "/assets/images/services/2.jpg",
+                "image": "/assets/icons/professional.svg",
                 "value":"Professional",
                 "value_description":"Our love for event planning goes beyond mere passion, as we have honed our skills and gained valuable experience, enabling us to bring a wealth of knowledge and expertise to each and every event we undertake."
             }

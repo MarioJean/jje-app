@@ -37,13 +37,14 @@ const About = ({ isBg }) => {
                         data-aos-duration='1000'
                         data-aos-delay='200'
                         >
-                        <Card className="abt__card mt-4 mt-lg-0 light-bg" >
+                        {/* <Card className="abt__card mt-4 mt-lg-0 light-bg" >
                             <Card.Body>
                                 <Card.Text>
                                     <p className="text-secondary">{aboutv2.description1}</p>
                                 </Card.Text>
                             </Card.Body>
-                        </Card>
+                        </Card> */}
+                        <p className="text-secondary dark-bg">{aboutv2.description1}</p>
                         </div> 
                         <br></br>   
                         <div
@@ -51,20 +52,22 @@ const About = ({ isBg }) => {
                         data-aos-duration='1500'
                         data-aos-delay='300'
                         >
-                        <Card className="abt__card mt-4 mt-lg-0 light-bg" >
+                        {/* <Card className="abt__card mt-4 mt-lg-0 light-bg" >
                             <Card.Body>
                                 <Card.Text>
                                     <p className="text-secondary">{aboutv2.description2}</p>
                                 </Card.Text>
                             </Card.Body>
-                        </Card>
+                        </Card> */}
+                        <p className="text-secondary dark-bg">{aboutv2.description2}</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* Section 2 */}
-
+            <br></br>
+            <br></br>
             <div className="container">   
                 <div className="row">
                     <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
@@ -75,13 +78,13 @@ const About = ({ isBg }) => {
                     </div>
                 </div>
 
-                <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2">
+                <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2" >
                     {aboutv2?.values?.map((data, i) => (
                         <div
                          key={data.id}
                          className="m-15px-tb"
                         >
-                            <div className="services__item h-100 translateEffect1">
+                            {/* <div className="services__item h-100 translateEffect1">
                                 <div className="row row-cols-1">
                                     <div className="col">
                                         <img
@@ -99,6 +102,25 @@ const About = ({ isBg }) => {
                                     </div>
 
                                 </div>
+                            </div> */}
+                            <div>
+                                <Card>
+                                    {/* <div className="value__img" ><Card.Img variant="top" src={data.image} /></div> */}
+                                    <img
+                                                className="value__img"
+                                                src={data.image}
+                                                alt="icon"
+                                                width="100"
+                                                height="100"
+                                                />
+                                    
+                                    <Card.Header><h3 className="text-center dark-bg">{data.value}</h3></Card.Header>
+                                    <Card.Body>
+                                        <Card.Text>
+                                            <p>{data.value_description}</p>
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
                             </div>
                         </div>
                     ))}

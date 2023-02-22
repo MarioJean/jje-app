@@ -1,5 +1,10 @@
-.abt__card {
-    background-color: #fff;
+.card-header {
+    background-color: #071013;
+}
+
+.value__img img{
+    background-color: #e51c24;
+    text-align: center;
 }
 
 .img__item {
