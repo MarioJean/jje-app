@@ -104,22 +104,26 @@ const About = ({ isBg }) => {
                                 </div>
                             </div> */}
                             <div>
-                                <Card>
-                                    {/* <div className="value__img" ><Card.Img variant="top" src={data.image} /></div> */}
+                                <div className="value_img">
                                     <img
-                                                className="value__img"
-                                                src={data.image}
-                                                alt="icon"
-                                                width="100"
-                                                height="100"
-                                                />
+                                        src={data.image}
+                                        alt="icon"
+                                        width="100"
+                                        height="100"
+                                    />
+                                </div>
+                                <Card>
                                     
-                                    <Card.Header><h3 className="text-center dark-bg">{data.value}</h3></Card.Header>
+                                    <Card.Header>
+                                        <h3 className="value_header text-center">{data.value}</h3>
+                                    </Card.Header>
+
                                     <Card.Body>
                                         <Card.Text>
                                             <p>{data.value_description}</p>
                                         </Card.Text>
                                     </Card.Body>
+
                                 </Card>
                             </div>
                         </div>

@@ -10,7 +10,7 @@
             {
                 "image": "/assets/icons/money.svg",
                 "value":"Value for Money",
-                "value_description":"Our belief is that one does not have to exceed their budget to host an amazing party or event. Instead, we ensure that our prices are affordable while providing the highest level of quality for each service we offer."
+                "value_description":"We believe hosting an amazing event doesn't need to break the bank. Instead, we ensure that our prices are affordable while providing the highest level of quality service."
             },
             {
                 "image": "/assets/icons/thumbs-up.svg",
@@ -20,7 +20,7 @@
             {
                 "image": "/assets/icons/professional.svg",
                 "value":"Professional",
-                "value_description":"Our love for event planning goes beyond mere passion, as we have honed our skills and gained valuable experience, enabling us to bring a wealth of knowledge and expertise to each and every event we undertake."
+                "value_description":"Our love for event planning goes beyond mere passion, backed by our honed skills and experience. Count on our wealth of knowledge to deliver an exceptional event."
             }
         ]
     }

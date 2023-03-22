@@ -2,11 +2,29 @@
     background-color: #071013;
 }
 
-.value__img img{
-    background-color: #e51c24;
-    text-align: center;
-}
-
 .img__item {
     box-shadow: -15px -15px  #e51c24;
 }
+
+.value_header {
+    color: #e51c24;
+}
+
+.value_img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 15px;
+}
+
+.card {
+    cursor: pointer;
+}
+  
+.card:hover {
+    box-shadow: 0 0 20px rgba(221, 9, 9, 0.7);
+    transition: all 0.1s ease-in-out;
+}
+
+
+  
