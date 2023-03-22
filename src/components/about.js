@@ -37,13 +37,7 @@ const About = ({ isBg }) => {
                         data-aos-duration='1000'
                         data-aos-delay='200'
                         >
-                        {/* <Card className="abt__card mt-4 mt-lg-0 light-bg" >
-                            <Card.Body>
-                                <Card.Text>
-                                    <p className="text-secondary">{aboutv2.description1}</p>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card> */}
+                            
                         <p className="text-secondary dark-bg">{aboutv2.description1}</p>
                         </div> 
                         <br></br>   
@@ -52,13 +46,7 @@ const About = ({ isBg }) => {
                         data-aos-duration='1500'
                         data-aos-delay='300'
                         >
-                        {/* <Card className="abt__card mt-4 mt-lg-0 light-bg" >
-                            <Card.Body>
-                                <Card.Text>
-                                    <p className="text-secondary">{aboutv2.description2}</p>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card> */}
+                     
                         <p className="text-secondary dark-bg">{aboutv2.description2}</p>
                         </div>
                     </div>
@@ -84,25 +72,6 @@ const About = ({ isBg }) => {
                          key={data.id}
                          className="m-15px-tb"
                         >
-                            {/* <div className="services__item h-100 translateEffect1">
-                                <div className="row row-cols-1">
-                                    <div className="col">
-                                        <img
-                                         className="img-fluid"
-                                         src={data.image}
-                                         alt="value"
-                                        />
-                                    </div>
-
-                                    <div className="col">
-                                        <div className="services__content text-center">
-                                            <h3 className="dark-bg">{data.value}</h3>
-                                            <p>{data.value_description}</p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div> */}
                             <div>
                                 <div className="value_img">
                                     <img

@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination,EffectCoverflow } from "swiper";
 import data from '../data/gallery.json';
 
 const Gallery = ({ isBg }) => {
@@ -35,7 +35,7 @@ const Gallery = ({ isBg }) => {
 
                 <div className="row testi-row">
                     <div className="col-12">
-                        <Swiper
+                        {/* <Swiper
                          modules={[Pagination, Autoplay]}
                          pagination={{ clickable: true}}
                          autoplay
@@ -66,7 +66,53 @@ const Gallery = ({ isBg }) => {
                                     </div>
                                 </SwiperSlide>
                             ))}
-                         </Swiper>
+                         </Swiper> */}
+
+
+                    <Swiper
+                            effect={"coverflow"}
+                            grabCursor={true}
+                            centeredSlides={true}
+                            coverflowEffect={{
+                            rotate: -25,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            slideShadows: true,
+                            }}
+                            loop={true}
+                            modules={[EffectCoverflow, Pagination, Autoplay]}
+                            pagination={{ clickable: true}}
+                            autoplay
+                            breakpoints={{
+                                768: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 20,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 20,
+                                },
+                            }}
+                        >
+                            {gallery.images.map((data, i) => (
+                                <SwiperSlide key={i}>
+                                    <div className="swiper-slide p-5px-lr translateEffect2">
+                                        <a
+                                         href={data.image}
+                                         className="glightbox2"                                        
+                                        >
+                                            <img
+                                             className="display img-fluid"
+                                             src={data.image}
+                                             alt={data.title}
+                                            />
+                                        </a>    
+                                    </div>
+                                </SwiperSlide>
+                            ))}
+                            
+                        </Swiper>
                     </div>
                 </div>
             </div>
