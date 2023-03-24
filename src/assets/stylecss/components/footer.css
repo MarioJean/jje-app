@@ -1,14 +1,17 @@
+.footer__top {
+    margin-top: 25px;
+}
+
 .footer__menu {
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: center;
     display: inline;
 }
 
-.footer__menu li {
+/* .footer__menu li {
     display: inline-block;
-}
+} */
 
 .footer__menu li a {
     margin-left: 10px;

@@ -1,14 +1,27 @@
-.ctav3__content {
-    text-align: center;
+.ctav3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
     position: relative;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    text-align: center;
 }
 
-.ctav3__content h2 a {
-    color: #e51c24;
+.ctav3::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background-color: #2f4858;
 }
 
-.ctav3__content h2 a:hover {
-    color: #f14951;
+.ctav3__content {
+    z-index: 1;
+}
+
+.ctav3__content h4 {
+    color: #fff;
+    margin-bottom: 25px;
 }

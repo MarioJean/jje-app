@@ -35,41 +35,7 @@ const Gallery = ({ isBg }) => {
 
                 <div className="row testi-row">
                     <div className="col-12">
-                        {/* <Swiper
-                         modules={[Pagination, Autoplay]}
-                         pagination={{ clickable: true}}
-                         autoplay
-                         breakpoints={{
-                            768: {
-                                slidesPerView: 3,
-                                spaceBetween: 30,
-                            },
-                            1024: {
-                                slidesPerView: 3,
-                                spaceBetween: 30,
-                            },
-                         }}
-                         >
-                            {gallery.images.map((data, i) => (
-                                <SwiperSlide key={i}>
-                                    <div className="swiper-slide p-5px-lr translateEffect2">
-                                        <a
-                                         href={data.image}
-                                         className="glightbox2"                                        
-                                        >
-                                            <img
-                                             className="display img-fluid"
-                                             src={data.image}
-                                             alt={data.title}
-                                            />
-                                        </a>    
-                                    </div>
-                                </SwiperSlide>
-                            ))}
-                         </Swiper> */}
-
-
-                    <Swiper
+                        <Swiper
                             effect={"coverflow"}
                             grabCursor={true}
                             centeredSlides={true}

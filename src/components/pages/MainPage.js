@@ -6,6 +6,7 @@ import About from '../about';
 import Services from '../services';
 import Testimonial from '../testimonial';
 import Contact from '../contact';
+import Ctav3 from '../ctav3';
 import Footer from '../global/footer';
 
 const MainPage = ({ header, footer }) => {  
@@ -18,6 +19,7 @@ const MainPage = ({ header, footer }) => {
             <Gallery isBg='yes' />
             <Testimonial isBg='' />
             <Contact isBg='yes' />
+            <Ctav3 isBg='' />
             <Footer isBg='yes' footer={footer} />
         </>
     )
