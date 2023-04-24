@@ -2,9 +2,12 @@ import React from "react";
 import { Link } from 'react-scroll';
 import data from '../data/hero.json';
 
-
 const Hero = ({isBg}) => {
     const { herov1 } = data;
+    const scrollToContact = () => {
+        // Replace "contact" with the ID of the contact section
+        document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    };
     return (
         <section id='hero' 
                  className={`hero hero__padding overflow-hidden position-relative
@@ -27,9 +30,12 @@ const Hero = ({isBg}) => {
                                 <h1 className="display-4 mb-4 text-capitalize light-bg hero__text">{herov1.title}</h1>
                                 <p className="text-muted mb-5 fs-5">{herov1.description}</p>
                                 <div className="input-group">
-                                    <button type="submit" className="button button__primary">
-                                        <span>Get Started</span>
-                                    </button>
+                                    {/* Use the Link component to scroll to the contact section */}
+                                    <Link to="contact" smooth={true} duration={500}>
+                                        <button type="button" className="button button__primary" onClick={scrollToContact}>
+                                            <span>Get Started</span>
+                                        </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

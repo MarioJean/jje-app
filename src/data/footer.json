@@ -31,6 +31,18 @@
                 "title": "Contact"
                 
             }
+        ],
+
+        "menu2": [
+            {
+                "link": "terms",
+                "title": "Terms of Use"
+            },
+            {
+                "link": "privacy",
+                "title": "Privacy Policy"
+                
+            }
         ]
     }
 }

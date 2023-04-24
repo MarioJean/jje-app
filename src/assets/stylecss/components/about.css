@@ -6,6 +6,10 @@
     box-shadow: -15px -15px  #e51c24;
 }
 
+.values {
+    margin-top: 85px;
+}
+
 .value_header {
     color: #e51c24;
 }

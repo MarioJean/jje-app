@@ -1,5 +1,5 @@
 .footer__top {
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .footer__menu {
@@ -9,9 +9,6 @@
     display: inline;
 }
 
-/* .footer__menu li {
-    display: inline-block;
-} */
 
 .footer__menu li a {
     margin-left: 10px;

@@ -18,7 +18,7 @@ const Ctav3 = ({isBg}) => {
                         <h4
                             className="display-4"
                             data-aos="fade-up"
-                            data-aos-duration="1000"
+                            data-aos-duration="1050"
                             data-aos-delay="150"
                         >
                             {ctav3.title}

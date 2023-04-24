@@ -54,9 +54,7 @@ const About = ({ isBg }) => {
             </div>
 
             {/* Section 2 */}
-            <br></br>
-            <br></br>
-            <div className="container">   
+            <div className="container values">   
                 <div className="row">
                     <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
                         <div className="section-title-center text-center">
