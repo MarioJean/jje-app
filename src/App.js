@@ -4,6 +4,7 @@ import MainPage from "./components/pages/MainPage";
 import AOS from "aos";
 import { useEffect } from "react";
 import './assets/CSS/aos.css';
+import ScrollToTopButton from "./components/global/ScrollToTopButton";
 import headerData from './data/header.json';
 import footerData from './data/footer.json';
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" element={<MainPage header={header} footer={footer}/>}/>
       </Routes>
       </BrowserRouter>
+      <ScrollToTopButton />
     </div>
   );
 }
