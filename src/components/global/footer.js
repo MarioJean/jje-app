@@ -44,7 +44,7 @@ const Footer = ({footer, isBg}) => {
                                                             ""
                                                         ) : (
                                                             <li>
-                                                                <a href={socialLink.facebook}>
+                                                                <a href={socialLink.facebook} target="_blank" rel="noopener noreferrer">
                                                                     <img
                                                                     className="img-fluid"
                                                                     src="assets/icons/facebook.svg"
@@ -59,7 +59,7 @@ const Footer = ({footer, isBg}) => {
                                                             ""
                                                         ) : (
                                                             <li>
-                                                                <a href={socialLink.instagram}>
+                                                                <a href={socialLink.instagram} target="_blank" rel="noopener noreferrer">
                                                                     <img
                                                                     className="img-fluid"
                                                                     src="assets/icons/instagram.svg"
@@ -74,7 +74,7 @@ const Footer = ({footer, isBg}) => {
                                                             ""
                                                         ) : (
                                                             <li>
-                                                                <a href={socialLink.twitter}>
+                                                                <a href={socialLink.twitter} target="_blank" rel="noopener noreferrer">
                                                                     <img
                                                                     className="img-fluid"
                                                                     src="assets/icons/twitter.svg"
@@ -89,7 +89,7 @@ const Footer = ({footer, isBg}) => {
                                                             ""
                                                         ) : (
                                                             <li>
-                                                                <a href={socialLink.linkedin}>
+                                                                <a href={socialLink.linkedin} target="_blank" rel="noopener noreferrer">
                                                                     <img
                                                                     className="img-fluid"
                                                                     src="assets/icons/linkedin.svg"
@@ -104,7 +104,7 @@ const Footer = ({footer, isBg}) => {
                                                             ""
                                                         ) : (
                                                             <li>
-                                                                <a href={socialLink.whatsapp}>
+                                                                <a href={socialLink.whatsapp} target="_blank" rel="noopener noreferrer">
                                                                     <img
                                                                     className="img-fluid"
                                                                     src="assets/icons/whatsapp.svg"

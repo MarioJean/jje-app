@@ -5,6 +5,7 @@ import AOS from "aos";
 import { useEffect, useState } from "react";
 import './assets/CSS/aos.css';
 import ScrollToTopButton from "./components/global/ScrollToTopButton";
+import { ToastContainer } from 'react-toastify';
 import headerData from './data/header.json';
 import footerData from './data/footer.json';
 import "./assets/stylecss/components/preloader.css";
@@ -49,6 +50,7 @@ function App() {
             </Routes>
           </BrowserRouter>
           <ScrollToTopButton />
+          <ToastContainer/>
         </>
       )}
     </div>

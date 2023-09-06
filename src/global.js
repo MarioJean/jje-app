@@ -5,9 +5,9 @@ export const SiteLogo = {
 };
 
 export const socialLink = {
-    facebook: "https://facebook.com/jollyjunctionevents",
-    instagram: "https://instagram.com/jollyjunction/",
+    facebook: "https://facebook.com/joyfuljamboreesevents",
+    instagram: "https://instagram.com/joyfuljamborees/",
     twitter: "https://www.twitter.com",
-    linkedin: "https://www.linkedin.com/company/jolly-junction/",
-    whatsapp: "https://wa.me/0798860259",
+    linkedin: "https://www.linkedin.com/company/jolly-junction/mycompany/",
+    whatsapp: "https://wa.me/0740454585",
 };
